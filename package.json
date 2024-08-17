@@ -1,0 +1,45 @@
+{
+  "name": "scopesmith",
+  "displayName": "scopesmith",
+  "description": "VScode extn allows you to toggle all code block expand,shrink, name lines as blocks and localized search in  those blocks",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.87.2"
+  },
+  "main": "./src/extension.js",
+  "scripts": {
+    "vscode:prepublish": "echo 'Skipping prepublish'"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  },
+  "contributes": {
+    "commands": [
+        {
+          "command": "extension.expand",
+          "title": "toggleAllScopes"
+        },
+        {
+          "command": "extension.nameBlock",
+          "title": "nameBlock"
+        },
+        {
+          "command": "extension.searchInBlock",
+          "title": "searchInBlock"
+        }
+              
+    ]
+},
+  "activationEvents": [
+    "onCommand:extension.expand",
+    "onCommand:extension.nameBlock",
+    "onCommand:extension.searchInBlock"
+  ]
+}
