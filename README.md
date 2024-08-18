@@ -2,7 +2,7 @@
 
 Welcome to **ScopeSmith** – your smart companion for managing and navigating through named code blocks in VSCode! 🌟 Whether you're wrangling large files or organizing your code into neat blocks, ScopeSmith makes your coding life easier. Let's dive into what makes ScopeSmith a must-have tool!
 
-I've made use of yaemon .. (ya code  - js template) for initial setup(VS code Extn template)
+I've made use of yaemon .. (ya code  -> js template) for initial setup(VS code Extn template)
 
 ## Demo 🎥
 
@@ -32,8 +32,8 @@ Perform precise searches within your named blocks. ScopeSmith handles nested blo
 2. **Local Development**:
    - Clone this repository:
      ```sh
-     git clone <repository-url>
-     cd <repository-directory>
+     git clone https://github.com/dhanushholla/scopeSmith
+     cd scopesmith
      ```
    - Install dependencies:
      ```sh
@@ -51,14 +51,14 @@ Perform precise searches within your named blocks. ScopeSmith handles nested blo
 ### 2. **Using ScopeSmith** 🚀
 
 1. **Toggle Code Blocks**:
-   - Run the command `Toggle All Code Blocks` to fold or unfold all your code blocks. This helps in managing large files effortlessly. 🗂️
+   - Run the command `toggleAllScopee` to fold or unfold all your code blocks. This helps in managing large files effortlessly. 🗂️
 
 2. **Name a Code Block**:
    - Select the lines of code you want to name.
-   - Run the command `Name Block` and enter a descriptive name. 🌟
+   - Run the command `nameBlock` and enter a descriptive name. 🌟
 
 3. **Search Within a Block**:
-   - Use the command `Search in Block`.
+   - Use the command `searchInBlock`.
    - Provide the block name and search text in the format `BlockName:searchText`. This will highlight occurrences within the specified block. 🔍
 
 ## 🧪 Test UseCases (/test/sampleTestFile.js)
