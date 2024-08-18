@@ -4,6 +4,11 @@ Welcome to **ScopeSmith** – your smart companion for managing and navigating t
 
 I've made use of yaemon .. (ya code  - js template) for initial setup(VS code Extn template)
 
+## Demo 🎥
+
+[![Watch the video](./src/scopesmith.jpg)](./src/video.mp4)
+
+
 ## 🌟 Features
 
 ### 1. **Toggle All Code Blocks** 🗂️
